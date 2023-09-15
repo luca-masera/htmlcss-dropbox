@@ -6,3 +6,24 @@
 .debug{
     border: 1px solid black;
 }
+.container-navbar{
+    width: 100vw;
+    height: 60px;
+}
+
+ul{
+    list-style: none;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background-color: #0061FE;
+    padding: 6px;
+    color: white;
+}
+.padding{
+padding: 10px;
+}
