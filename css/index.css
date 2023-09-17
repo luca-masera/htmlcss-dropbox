@@ -5,6 +5,8 @@
 }
 .debug{
     border: 1px solid black;
+    width: 30%;
+    padding: 30px;
 }
 .container-navbar-header{
     width: 100vw;
@@ -12,7 +14,6 @@
 }
 
 .container{
-    position: relative;
     max-width: 1200px;
     /*margin: 0 auto;*/
     padding-left: 288px;
@@ -64,13 +65,26 @@ h1{
     padding-bottom: 40px;
 }
 img{
-    width: 35%;
+    width: 40%;
 }
 .position-relative{
     position: relative;
 }
 .position-absolute{
     position: absolute;
-    bottom: -70px;
-    right: 590px;
+    bottom: -100px;
+    right: 500px;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+}
+.display{
+    display: inline-flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
 }
