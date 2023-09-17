@@ -6,18 +6,26 @@
 .debug{
     border: 1px solid black;
 }
-.container-navbar{
+.container-navbar-header{
     width: 100vw;
     height: 60px;
 }
 
+.container{
+    position: relative;
+    max-width: 1200px;
+    /*margin: 0 auto;*/
+    padding-left: 288px;
+    width: 30%;
+}
 ul{
     list-style: none;
+
 }
 .d-flex{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
 }
 button{
     background-color: #0061FE;
@@ -26,4 +34,43 @@ button{
 }
 .padding{
 padding: 10px;
+}
+
+.container1{
+    width: 100%;
+    background-color:#B4D0E7;
+}
+.d-flex-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.padding-bottom{
+    padding-bottom: 35px;
+    padding-left: 57px;
+}
+
+.padding-top{
+    padding-top: 35px;
+    padding-left: 28px;
+}
+h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+    padding-left: 280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+img{
+    width: 35%;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+    bottom: -70px;
+    right: 590px;
 }
