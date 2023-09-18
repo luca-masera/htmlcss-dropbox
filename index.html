@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+Mahajani&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="css/index.css">
     <title>Dropbox</title>
 </head>
 
@@ -16,7 +16,7 @@
         <div class=" container-navbar-header d-flex">
             <div class="d-flex">
                 <img class="padding" src="img/logo-small.png" alt="logo-small">
-                <ul class="d-flex padding">
+                <ul class="d-flex">
                     <li class="padding"><a href=""></a>Perchè Dropbox</li>
                     <li class="padding"><a href=""></a>Funzioni</li>
                     <li class="padding"><a href=""></a>Piani e Prezzi</li>
@@ -31,37 +31,87 @@
                 <button class="padding">Inizia</button>
             </div>
         </div>
-        <div class="container1">
+        <div class="container1 debug">
             <div>
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             </div>
-            <div class="container d-flex-p">
-
-                <p class="padding-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit Deserunt sit eaque,
-                    blanditiis aperiam in nihil quam dignissimos vero amet veniam temporibus eius iusto recusandae omnis
-                    dolorem nulla ipsum quibusdam minima, debitis pariatur ipsa. Rerum, aut?
-                </p>
-
-                <button><a href=""></a>Inizia la tua prova gratuita</button>
-
-                <span class="padding-top">Annulla in qualsiasi momento</span>
-
-                <span class="padding-top">&#129139;</span>
-            </div>
-            <div class="position-relative">
-                <img class="position-absolute" src="img/jumbo.png" alt="">
+            <div class="container debug">
+                <div class="debug small-box d-flex-p">
+                    <p class="padding-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit Deserunt sit
+                        eaque,
+                        blanditiis aperiam in nihil quam dignissimos vero amet veniam temporibus eius iusto recusandae
+                        omnis
+                        dolorem nulla ipsum quibusdam minima, debitis pariatur ipsa. Rerum, aut?
+                    </p>
+                    <button class="d-flex-p"><a href=""></a>Inizia la tua prova gratuita</button>
+                    <span class="padding-top">Annulla in qualsiasi momento</span>
+                    <span class="padding-top">&#129139;</span>
+                </div>
+                <div class="debug d-flex-img large-box">
+                    <img class="large-box" src="img/jumbo.png" alt="jumbo">
+                </div>
             </div>
         </div>
     </header>
     <main>
         <div>
-            <h2>Trova il piano business che fa per te</h2>
-            <div>
+            <h2 class="mb-20">Trova il piano business che fa per te
+            </h2>
+            <div class="mb-20">
                 <input type="radio" name="elenco" value="Fatturazione mensile" /> Fatturazione mensile
                 <input type="radio" name="elenco" value="Fatturazione annuale" /> Fatturazione annuale
             </div>
-            <div class="d-flex">
-                <div class="flex-column debug">
+            <div class="d-flex-main mb-20">
+                <article class="debug colonna">
+                    <div class="colonna-header"><i class="fa-solid fa-user"></i>Singolo</div>
+                    <div class="padding">
+                        <h3>Professional</h3>
+                    </div>
+                    <ul>
+                        <li>&euro;12.00</li>
+                        <li>/mese</li>
+                        <li>&nbsp</li>
+                        <li><i class="fa-solid fa-user"></i>1 utente</li>
+                        <li><i class="fa-solid fa-folder"></i>5TB di spazio di archiviazione sicuro</li>
+                        <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisioni file
+                            semplici e sicuri</li>
+                        <button>Prova gratis per 30 giorni</button>
+                        <li>oppure acquista ora</li>
+                        <li">----</li>
+                            <li> <strong>Punti salienti del piano</strong></li>
+                            <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox Transfert </li>
+                            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                    </ul>
+                </article>
+                <article class="debug colonna">
+                    <div class="colonna-header"><i class="fa-solid fa-people-group"></i>Team</div>
+                    <div class="padding">
+                        <h4>Professional</h4>
+                    </div>
+                    <ul>
+                        <li>&euro;18.00</li>
+                        <li>/utente/mese</li>
+                        <li>&nbsp</li>
+                        <li><i class="fa-solid fa-people-group"></i>3 o più utenti</li>
+                        <li>5TB di spazio di archiviazione sicuro</li>
+                        <li>Funzioni di produttività premium e condivisioni file semplici e sicuri</li>
+                        <button>Prova gratis per 30 giorni</button>
+                        <li>oppure acquista ora</li>
+                        <li>------</li>
+                        <li> <strong>Punti salienti del piano</strong></li>
+                        <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox Transfert </li>
+                        <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                        <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox Transfert </li>
+                        <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                        <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox Transfert </li>
+
+                    </ul>
+                </article>
+                <article class="debug colonna">
+                    <div class="colonna-header"><i class="fa-solid fa-user"></i>Azienda</div>
+                    <div class="padding">
+                        <h4>Professional</h4>
+                    </div>
                     <ul>
                         <li>Singolo</li>
                         <li>Professional</li>
@@ -75,19 +125,25 @@
                         <li>oppure acquista ora</li>
                         <li></li>
                     </ul>
-                    <!--<span>Singolo</span>
-                    <span><strong>Professional</strong></span>
-                    <span><strong>&euro;12.00</strong></span>
-                    <span>/mese</span>-->
-                </div>
-                <div class="debug">
-                    Team
-                </div>
-                <div class="debug">
-                    Azienda
-                </div>
+                </article>
+
             </div>
         </div>
+        <article class="debug">
+            <div class="colonna-header"><i class="fa-solid fa-building"></i>Team</div>
+            <div class="d-flex-main padding">
+                <div>
+                    <h3><strong>Enterprise</strong></h3>
+                    <h5>Contatta l'ufficio vendite</h5>
+
+                    <p class="padding-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic autem illo sint magnam placeat optio? At, voluptatum!</p>
+                </div>
+                <div>
+                    <button>Contatta l'ufficio vendite</button>
+                </div>
+            </div>
+
+        </article>
     </main>
 
 </body>

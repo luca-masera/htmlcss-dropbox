@@ -3,88 +3,123 @@
     padding: 0;
     box-sizing: border-box;
 }
-.debug{
-    border: 1px solid black;
-    width: 30%;
-    padding: 30px;
-}
-.container-navbar-header{
-    width: 100vw;
-    height: 60px;
-}
-
-.container{
-    max-width: 1200px;
-    /*margin: 0 auto;*/
-    padding-left: 288px;
-    width: 30%;
-}
 ul{
     list-style: none;
-
 }
-.d-flex{
-    display: flex;
-    justify-content: space-between;
 
+li{
+    padding-bottom: 20px;
 }
 button{
     background-color: #0061FE;
     padding: 6px;
     color: white;
 }
+h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4em;
+    padding: 40px 330px 40px 350px;
+}
+
+h2{
+    font-size: 2.5em;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.debug{
+    border: 1px solid black;
+    /*width: 30%;
+    padding: 30px;*/
+}
+.container-navbar-header{
+    width: 100vw;
+    height: 60px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.container{    
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.d-flex-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
 .padding{
-padding: 10px;
+padding: 15px;
 }
 
 .container1{
     width: 100%;
     background-color:#B4D0E7;
 }
+
 .d-flex-p{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
+.d-flex-img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
 .padding-bottom{
     padding-bottom: 35px;
-    padding-left: 57px;
 }
 
 .padding-top{
     padding-top: 35px;
-    padding-left: 28px;
 }
-h1{
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 50px;
-    padding-left: 280px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+
+
+.colonna{
+    width: calc(100% / 3 - 20px);
+    border: 1px solid black; 
+    padding: 18px;
+    text-indent: 7px;
 }
-img{
-    width: 40%;
+
+.colonna-header{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
 }
 .position-relative{
     position: relative;
+    right: 10px;
+    bottom: 10px;
 }
-.position-absolute{
-    position: absolute;
-    bottom: -100px;
-    right: 500px;
-}
+
 main{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 100px;
+    padding: 10px;
 }
-.display{
-    display: inline-flex;
-}
+
 
 .flex-column{
     display: flex;
     flex-direction: column;
+}
+.small-box{
+    width: 40%;
+}
+.large-box{
+    width: 60%;
 }
