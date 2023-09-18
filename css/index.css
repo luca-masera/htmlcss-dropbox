@@ -23,8 +23,9 @@ h1{
 
 h2{
     font-size: 2.5em;
+    padding-top: 64px;
 }
-img{
+.img{
     width: 100%;
     display: block;
 }
@@ -37,6 +38,7 @@ img{
 .container-navbar-header{
     width: 100vw;
     height: 60px;
+    align-items: center;
 }
 
 .d-flex{
@@ -103,8 +105,8 @@ padding: 10px;
 }
 .position-relative{
     position: relative;
-    right: 10px;
-    bottom: 10px;
+    left: 20px;
+    bottom: -50px;
 }
 
 main{
@@ -119,10 +121,11 @@ main{
     flex-direction: column;
 }
 .small-box{
-    width: 40%;
+    width: 20%;
+    padding-top: 50px;
 }
 .large-box{
-    width: 60%;
+    width: 80%;
 }
 .padding1{
     padding: 36px;
@@ -132,4 +135,15 @@ main{
     padding: 6px;
     color:black;
     margin: 10px;
+}
+.card{
+    width: calc(100% / 3);
+    border: 1px solid black; 
+    padding: 18px;
+}
+.large-box1{
+    width: 60%;
+}
+.small-box1{
+    width: 40%;
 }
