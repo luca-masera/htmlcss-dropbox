@@ -44,11 +44,17 @@ h6{
     text-align: center;
 }
 
-.debug{
+/*.debug{
     border: 1px solid black;
-    /*width: 30%;
-    padding: 30px;*/
+    width: 30%;
+    padding: 30px;
+}*/
+
+
+.debug1{
+    border: 1px solid black;
 }
+
 .container-navbar-header{
     width: 100vw;
     height: 60px;
@@ -65,16 +71,33 @@ h6{
     width: 100%;
 }
 
-
+.mr-20{
+    margin-right: 20px;
+}
 .mb-20{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .mt-20{
     margin-top: 20px;
 }
+
+.ml-10{
+    margin-left: 10px;
+}
 .padding{
 padding: 10px;
+}
+.padding-bottom{
+    padding-bottom: 35px;
+}
+
+.padding-top{
+    padding-top: 35px;
+}
+
+.padding-left{
+    padding-left: 400px;
 }
 
 .container1{
@@ -90,17 +113,7 @@ padding: 10px;
 }
 
 
-.padding-bottom{
-    padding-bottom: 35px;
-}
 
-.padding-top{
-    padding-top: 35px;
-}
-
-.padding-left{
-    padding-left: 400px;
-}
 .colonna{
     width: calc(100% / 3 - 20px);
     border: 1px solid black; 
@@ -147,8 +160,7 @@ padding: 10px;
     margin: 10px;
 }
 .card{
-    width: calc(100% / 3);
-    border: 1px solid black; 
+    width: calc(100% / 3); 
     padding: 18px;
 }
 .large-box1{
@@ -228,5 +240,8 @@ footer{
     display: block;
 }
 .padding-right{
-    padding-right: 80px;
+    padding-right: 78px;
+}
+.color{
+    color: #5A0010;
 }
